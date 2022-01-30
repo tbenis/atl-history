@@ -17,7 +17,7 @@ import SwanHouse from "./components/map/SwanHouse";
 
 import MLK from "./components/people/MLK";
 import Stacey from "./components/people/Stacey";
-import Peach from "./components/people/Peach";
+import Peach from "./components/Peach";
 
 // import logo from './lo go.svg';
 import "./App.css";
@@ -26,13 +26,14 @@ export default class App extends Component {
   render() {
     return (
       <>
+        <Main />
         <Router>
           <div className="App">
             <header className="app-header">
-              <Nav />
+              {/* <Nav /> */}
             </header>
 
-            <Route path="/center-for-civil-rights" render={() => <CenterForCivil />} />
+            {/* <Route path="/center-for-civil-rights" render={() => <CenterForCivil />} />
             <Route path="/cococola" render={() => <CocoCola />} />
             <Route path="/mlk-house" render={() => <MLKHouse />} />
             <Route path="/state-capitol" render={() => <StateCapitol />} />
@@ -42,10 +43,10 @@ export default class App extends Component {
             <Route path="/stacey-abrams" render={() => <Stacey />} />
             <Route path="/peach" render={() => <Peach />} />
             <Route path="/main" render={() => <Main />} />
-            <Route path="/about" render={() => <About />} />
+            <Route path="/about" render={() => <About />} /> */}
 
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       </>
       // <div className="App">
