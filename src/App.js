@@ -21,6 +21,7 @@ import Peach from "./components/Peach";
 
 // import logo from './lo go.svg';
 import "./App.css";
+// import "./App.css";
 
 export default class App extends Component {
   render() {
